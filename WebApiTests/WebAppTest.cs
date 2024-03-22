@@ -9,7 +9,7 @@ using WeatherApiDocker;
 
 namespace WebApiTests
 {
-    public class WebAppTest
+    public class WebAppTest : IClassFixture<WebApplicationFactory<Program>>
     {
         private readonly WebApplicationFactory<Program> _factory;
 
@@ -29,7 +29,7 @@ namespace WebApiTests
 
             // Assert
             response.EnsureSuccessStatusCode(); // Status Code 200-299
-            Assert.Equal("application/json; charset=utf-8", response.Content.Headers.ContentType?.ToString());
+            Assert.Equal("application/json; charset=utf-8", response.Content.Headers.ContentType.ToString());
 
             var forecasts = await response.Content.ReadFromJsonAsync<WeatherForecast[]>();
             Assert.NotNull(forecasts);

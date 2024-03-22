@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApiDocker", "WeatherApiDocker\WeatherApiDocker.csproj", "{E6A2342B-ED4F-4C16-9413-5F330B1F4D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTests", "WebApiTests\WebApiTests.csproj", "{D7AB710A-EDFF-430A-8392-B846A799DDDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6A2342B-ED4F-4C16-9413-5F330B1F4D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A2342B-ED4F-4C16-9413-5F330B1F4D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6A2342B-ED4F-4C16-9413-5F330B1F4D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6A2342B-ED4F-4C16-9413-5F330B1F4D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7AB710A-EDFF-430A-8392-B846A799DDDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7AB710A-EDFF-430A-8392-B846A799DDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7AB710A-EDFF-430A-8392-B846A799DDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7AB710A-EDFF-430A-8392-B846A799DDDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C33738D8-3CC3-4C73-AFA0-CE66B22842B1}
+	EndGlobalSection
+EndGlobal

@@ -6,7 +6,7 @@ services:
     build:
       context: .
       dockerfile: WeatherApiDocker/Dockerfile
-    container_name: productDetail-container
+    container_name: WeatherApi-container
     ports:
       - "5001:5001"
     environment:
